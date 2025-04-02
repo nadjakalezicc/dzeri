@@ -12,9 +12,12 @@ constructor(marka, model, godiste, kilometraza, cijena, slika){
 }
     stampa(){
         console.log(this.marka + " " + this.model + ',')
+        
         console.log("prosjek:" + this.kilometraza + ',')
          console.log("godine:" + this.godiste)
     }
+    h
+    
 
     filter(manje_od)
     {
