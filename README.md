@@ -8,6 +8,7 @@ constructor(marka, model, godiste, kilometraza, cijena, slika){
     this.kilometraza=kilometraza
     this.cijena=cijena
     this.slika=slika
+    
 }
     stampa(){
         console.log(this.marka + " " + this.model + ',')
