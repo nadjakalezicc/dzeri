@@ -19,5 +19,18 @@
 
 
 </html>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #6d97c1;
+}
+h1 {
+    color: #ff6b6b;
+}
+img {
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 
 
