@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Sale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Jewelry Sale</h1>
+       
+    </header>
+
+    <div class="container">
+        <!-- Selection for Gender -->
+        <section id="gender-selection">
+            <h2>Select Jewelry Type</h2>
+            <div class="image-selection">
+                <div class="image-option" onclick="showProducts('mens')">
+                    <img src="https://domno-vintage.com/cdn/shop/files/117_acc2cd06-90bb-4347-8860-82f22a5bba10.jpg?v=1712837731&width=1000" alt="Men's Jewelry">
+                    <p>Men's Jewelry</p>
+                </div>
+                <div class="image-option" onclick="showProducts('womens')">
+                    <img src="https://medleyjewellery.com.au/cdn/shop/articles/MedleyJewelleryBlog5ClassicJewelleryPieces1.png?v=1647220069" alt="Women's Jewelry">
+                    <p>Women's Jewelry</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filters -->
+        <section id="filters">
+            <h2>Filter by Material</h2>
+            <div class="filter-group">
+                <label for="material">Material:</label>
+                <select id="material" onchange="filterProducts()">
+                    <option value="all">All</option>
+                    <option value="gold">Gold</option>
+                    <option value="silver">Silver</option>
+                    <option value="diamond">Diamond</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Product Gallery -->
+        <section id="products" class="product-gallery">
+            <!-- This section will dynamically show products -->
+        </section>
+
+    </div>
+
+    <footer>
+        <p>~ Thank you for working with us ~</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
